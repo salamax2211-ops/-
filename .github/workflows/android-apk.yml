@@ -20,6 +20,6 @@ uses: actions/checkout@v4
       java-version: '17'
 
   - name: Build APK
-    run: |
+    run: | 
       chmod +x gradlew
       ./gradlew assembleDebug
